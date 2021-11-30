@@ -21,7 +21,7 @@ describe('Actions with service: ', () => {
     await epicGamesPage.clickContinueButton();
     await epicGamesPage.waitMessageIsNotVisible(textMessage);
     await epicGamesPage.clickAddToWishListButton();
-    await epicGamesPage.waitUntilAppleIdIsVisible
+    await epicGamesPage.waitUntilAppleIdIsVisible();
 
   });
 });
